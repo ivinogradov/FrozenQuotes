@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  FQQuotesTableViewController.h
 //  FrozenQuotes
 //
 //  Created by Ilya Vinogradov on 2/11/17.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface FQQuotesTableViewController : UITableViewController
 
 @end
-

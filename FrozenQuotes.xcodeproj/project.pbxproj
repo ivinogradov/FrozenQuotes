@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		A45C08FB1E4FB4F1003B180E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A45C08FA1E4FB4F1003B180E /* main.m */; };
 		A45C08FE1E4FB4F1003B180E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A45C08FD1E4FB4F1003B180E /* AppDelegate.m */; };
-		A45C09011E4FB4F1003B180E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A45C09001E4FB4F1003B180E /* ViewController.m */; };
 		A45C09041E4FB4F1003B180E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A45C09021E4FB4F1003B180E /* Main.storyboard */; };
 		A45C09061E4FB4F1003B180E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A45C09051E4FB4F1003B180E /* Assets.xcassets */; };
 		A45C09091E4FB4F1003B180E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A45C09071E4FB4F1003B180E /* LaunchScreen.storyboard */; };
 		A45C09141E4FB4F1003B180E /* FrozenQuotesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A45C09131E4FB4F1003B180E /* FrozenQuotesTests.m */; };
+		A45C09231E4FBB04003B180E /* FQQuotesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A45C09221E4FBB04003B180E /* FQQuotesTableViewController.m */; };
+		A45C09261E4FBC39003B180E /* FQQuote.m in Sources */ = {isa = PBXBuildFile; fileRef = A45C09251E4FBC39003B180E /* FQQuote.m */; };
+		A45C09291E4FBF14003B180E /* FQQuoteList.m in Sources */ = {isa = PBXBuildFile; fileRef = A45C09281E4FBF14003B180E /* FQQuoteList.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,8 +33,6 @@
 		A45C08FA1E4FB4F1003B180E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A45C08FC1E4FB4F1003B180E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A45C08FD1E4FB4F1003B180E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A45C08FF1E4FB4F1003B180E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A45C09001E4FB4F1003B180E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A45C09031E4FB4F1003B180E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A45C09051E4FB4F1003B180E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A45C09081E4FB4F1003B180E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,6 +40,12 @@
 		A45C090F1E4FB4F1003B180E /* FrozenQuotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrozenQuotesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A45C09131E4FB4F1003B180E /* FrozenQuotesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FrozenQuotesTests.m; sourceTree = "<group>"; };
 		A45C09151E4FB4F1003B180E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A45C09211E4FBB04003B180E /* FQQuotesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FQQuotesTableViewController.h; path = ViewControllers/FQQuotesTableViewController.h; sourceTree = "<group>"; };
+		A45C09221E4FBB04003B180E /* FQQuotesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FQQuotesTableViewController.m; path = ViewControllers/FQQuotesTableViewController.m; sourceTree = "<group>"; };
+		A45C09241E4FBC39003B180E /* FQQuote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FQQuote.h; path = Model/FQQuote.h; sourceTree = "<group>"; };
+		A45C09251E4FBC39003B180E /* FQQuote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FQQuote.m; path = Model/FQQuote.m; sourceTree = "<group>"; };
+		A45C09271E4FBF14003B180E /* FQQuoteList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FQQuoteList.h; path = Model/FQQuoteList.h; sourceTree = "<group>"; };
+		A45C09281E4FBF14003B180E /* FQQuoteList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FQQuoteList.m; path = Model/FQQuoteList.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,14 +87,12 @@
 		A45C08F81E4FB4F1003B180E /* FrozenQuotes */ = {
 			isa = PBXGroup;
 			children = (
-				A45C08FC1E4FB4F1003B180E /* AppDelegate.h */,
-				A45C08FD1E4FB4F1003B180E /* AppDelegate.m */,
-				A45C08FF1E4FB4F1003B180E /* ViewController.h */,
-				A45C09001E4FB4F1003B180E /* ViewController.m */,
 				A45C09021E4FB4F1003B180E /* Main.storyboard */,
 				A45C09051E4FB4F1003B180E /* Assets.xcassets */,
 				A45C09071E4FB4F1003B180E /* LaunchScreen.storyboard */,
 				A45C090A1E4FB4F1003B180E /* Info.plist */,
+				A45C09201E4FB9BC003B180E /* ViewControllers */,
+				A45C091F1E4FB9AA003B180E /* Model */,
 				A45C08F91E4FB4F1003B180E /* Supporting Files */,
 			);
 			path = FrozenQuotes;
@@ -97,6 +101,8 @@
 		A45C08F91E4FB4F1003B180E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A45C08FC1E4FB4F1003B180E /* AppDelegate.h */,
+				A45C08FD1E4FB4F1003B180E /* AppDelegate.m */,
 				A45C08FA1E4FB4F1003B180E /* main.m */,
 			);
 			name = "Supporting Files";
@@ -109,6 +115,26 @@
 				A45C09151E4FB4F1003B180E /* Info.plist */,
 			);
 			path = FrozenQuotesTests;
+			sourceTree = "<group>";
+		};
+		A45C091F1E4FB9AA003B180E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A45C09241E4FBC39003B180E /* FQQuote.h */,
+				A45C09251E4FBC39003B180E /* FQQuote.m */,
+				A45C09271E4FBF14003B180E /* FQQuoteList.h */,
+				A45C09281E4FBF14003B180E /* FQQuoteList.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A45C09201E4FB9BC003B180E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A45C09211E4FBB04003B180E /* FQQuotesTableViewController.h */,
+				A45C09221E4FBB04003B180E /* FQQuotesTableViewController.m */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,8 +239,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A45C09011E4FB4F1003B180E /* ViewController.m in Sources */,
+				A45C09291E4FBF14003B180E /* FQQuoteList.m in Sources */,
 				A45C08FE1E4FB4F1003B180E /* AppDelegate.m in Sources */,
+				A45C09261E4FBC39003B180E /* FQQuote.m in Sources */,
+				A45C09231E4FBB04003B180E /* FQQuotesTableViewController.m in Sources */,
 				A45C08FB1E4FB4F1003B180E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -16,6 +16,7 @@
 		A45C09231E4FBB04003B180E /* FQQuotesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A45C09221E4FBB04003B180E /* FQQuotesTableViewController.m */; };
 		A45C09261E4FBC39003B180E /* FQQuote.m in Sources */ = {isa = PBXBuildFile; fileRef = A45C09251E4FBC39003B180E /* FQQuote.m */; };
 		A45C09291E4FBF14003B180E /* FQQuoteList.m in Sources */ = {isa = PBXBuildFile; fileRef = A45C09281E4FBF14003B180E /* FQQuoteList.m */; };
+		A45C092C1E4FCD03003B180E /* FQEditQuoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A45C092B1E4FCD03003B180E /* FQEditQuoteViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		A45C09251E4FBC39003B180E /* FQQuote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FQQuote.m; path = Model/FQQuote.m; sourceTree = "<group>"; };
 		A45C09271E4FBF14003B180E /* FQQuoteList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FQQuoteList.h; path = Model/FQQuoteList.h; sourceTree = "<group>"; };
 		A45C09281E4FBF14003B180E /* FQQuoteList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FQQuoteList.m; path = Model/FQQuoteList.m; sourceTree = "<group>"; };
+		A45C092A1E4FCD03003B180E /* FQEditQuoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FQEditQuoteViewController.h; path = ViewControllers/FQEditQuoteViewController.h; sourceTree = "<group>"; };
+		A45C092B1E4FCD03003B180E /* FQEditQuoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FQEditQuoteViewController.m; path = ViewControllers/FQEditQuoteViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +136,8 @@
 			children = (
 				A45C09211E4FBB04003B180E /* FQQuotesTableViewController.h */,
 				A45C09221E4FBB04003B180E /* FQQuotesTableViewController.m */,
+				A45C092A1E4FCD03003B180E /* FQEditQuoteViewController.h */,
+				A45C092B1E4FCD03003B180E /* FQEditQuoteViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -241,6 +246,7 @@
 			files = (
 				A45C09291E4FBF14003B180E /* FQQuoteList.m in Sources */,
 				A45C08FE1E4FB4F1003B180E /* AppDelegate.m in Sources */,
+				A45C092C1E4FCD03003B180E /* FQEditQuoteViewController.m in Sources */,
 				A45C09261E4FBC39003B180E /* FQQuote.m in Sources */,
 				A45C09231E4FBB04003B180E /* FQQuotesTableViewController.m in Sources */,
 				A45C08FB1E4FB4F1003B180E /* main.m in Sources */,
